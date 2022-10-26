@@ -1,5 +1,10 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "lib": ["ESNext", "DOM"],
     "module": "commonjs",
     "paths": {
       "@/*": ["./src/*"]
