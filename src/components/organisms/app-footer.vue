@@ -2,7 +2,10 @@
   <footer class="bg-white">
     <div class="content">
       <div class="py-16 px-6 text-gray-800">
-        <app-logo class="mb-4" />
+        <app-logo
+          class="mb-4"
+          negative
+        />
 
         <div class="flex flex-wrap -mx-4">
           <div class="column">
