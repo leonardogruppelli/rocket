@@ -8,7 +8,18 @@
   }
 
   .link {
-    @apply relative;
+    @apply relative
+      p-1
+      after:w-full
+      after:absolute
+      after:top-full
+      after:left-0
+      after:border-b
+      after:opacity-40
+      after:scale-x-0
+      after:transition-all
+      hover:after:opacity-100
+      hover:after:scale-x-100;
   }
 
   .column {
