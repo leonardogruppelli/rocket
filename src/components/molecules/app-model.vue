@@ -44,8 +44,15 @@ onMounted(animate);
         </h4>
       </div>
 
-      <div ref="canvas" class="h-60 -order-1 lg:w-1/2 lg:h-96 lg:order-1">
-        <Renderer resize alpha antialias>
+      <div
+        ref="canvas"
+        class="h-60 -order-1 sm:h-80 lg:w-1/2 lg:h-96 lg:order-1"
+      >
+        <Renderer
+          resize
+          alpha
+          antialias
+        >
           <Scene :background="background">
             <Camera
               :position="{
