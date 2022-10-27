@@ -1,4 +1,4 @@
-import { onMounted } from "vue";
+import { onMounted } from 'vue';
 
 export function useSmoothScroll() {
   const offset = 120;
@@ -12,7 +12,7 @@ export function useSmoothScroll() {
 
   function init() {
     document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-      anchor.addEventListener("click", (event) => {
+      anchor.addEventListener('click', (event) => {
         event.preventDefault();
 
         const position =

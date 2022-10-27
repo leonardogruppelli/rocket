@@ -1,5 +1,5 @@
 <script setup>
-import { useSmoothScroll } from "./hooks/useSmoothScroll";
+import { useSmoothScroll } from './hooks/useSmoothScroll';
 
 useSmoothScroll();
 </script>

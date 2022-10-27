@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted } from "vue";
+import { ref, onMounted } from 'vue';
 
 const offset = ref(false);
 
@@ -15,7 +15,7 @@ function scroll() {
 function init() {
   scroll();
 
-  window.addEventListener("scroll", scroll);
+  window.addEventListener('scroll', scroll);
 }
 
 onMounted(init);

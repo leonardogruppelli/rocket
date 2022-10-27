@@ -1,7 +1,7 @@
 <script setup>
-import { ref, onMounted } from "vue";
-import { ANIMATIONS } from "@/config/animations";
-import anime from "animejs";
+import { ref, onMounted } from 'vue';
+import { ANIMATIONS } from '@/config/animations';
+import anime from 'animejs';
 
 const background = 0x000000;
 
@@ -12,8 +12,8 @@ function animate() {
     targets: [model.value.group.position],
     y: [-0.25, -1],
     duration: ANIMATIONS.POSITION,
-    direction: "alternate",
-    easing: "easeInOutQuad",
+    direction: 'alternate',
+    easing: 'easeInOutQuad',
     loop: true,
   });
 
@@ -21,7 +21,7 @@ function animate() {
     targets: [model.value.group.rotation],
     y: [0, Math.PI * 2],
     duration: ANIMATIONS.ROTATION,
-    easing: "linear",
+    easing: 'linear',
     loop: true,
   });
 }
